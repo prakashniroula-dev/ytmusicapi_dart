@@ -24,9 +24,7 @@ class Parser {
     // }
   }
 
-  /// Translates [key] to current language. // TODO
-  ///
-  /// Currently uses English for everything.
+  /// Translates [key] to current language.
   String t(String key) {
     if (locale.translations.containsKey(key)) {
       return locale.translations[key]!;
